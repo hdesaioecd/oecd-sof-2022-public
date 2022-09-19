@@ -1,0 +1,19 @@
+		(1)	(2)	(3)	(4)	(5)	(6)	(7)	(8)	(9)	(10)
+VARIABLES	LABELS	Reported on budget	Use of PFM systems	Use of PIUs	Use of programmatic aid	Joint activities	Aid through others	Multilateral aid	Multi-bi aid	Predictable funding	Volatility
+											
+fragile	Fragile Dummy	-11.8***	-8.7*	2.0	-10.1**	-10.1**	6.3**	-9.3***	7.4***	2.8	7.0***
+		(4.3)	(4.4)	(1.7)	(4.2)	(4.1)	(2.9)	(1.2)	(0.6)	(4.6)	(1.7)
+gdp	log(GDP Per Capita)	-3.1	1.3	11.8*	-15.9	18.2	-9.8	-67.4***	-24.0***	11.5	-48.4***
+		(19.9)	(20.8)	(6.9)	(17.4)	(17.1)	(11.2)	(4.0)	(2.6)	(19.9)	(7.3)
+pop	Population (millions)	-0.0	0.0	-0.0	0.0	-0.0	0.0*	-0.0***	-0.0***	0.1	-0.0
+		(0.0)	(0.1)	(0.0)	(0.0)	(0.0)	(0.0)	(0.0)	(0.0)	(0.0)	(0.0)
+years_since_2007	Years Since 2007	-0.9	-0.4	-1.7***	-1.2	-1.4	0.2	0.4*	0.2**	0.6	0.6
+		(0.9)	(1.0)	(0.5)	(1.3)	(1.3)	(0.7)	(0.2)	(0.1)	(0.9)	(0.4)
+Constant	Constant	108.6**	-32.6	-8.2	80.2*	20.0	18.2	170.3***	46.3***	8.5	149.7***
+		(46.4)	(49.9)	(17.2)	(43.3)	(42.6)	(26.2)	(8.0)	(6.1)	(47.1)	(17.2)
+											
+Observations		161	130	131	131	131	115	1,068	1,068	170	661
+R-squared		0.6	0.7	0.5	0.4	0.5	0.5	0.2	0.6	0.4	0.5
+# of Recipients		81	61	80	80	80	83	135	135	81	134
+Standard errors in parentheses											
+*** p<0.01, ** p<0.05, * p<0.1											

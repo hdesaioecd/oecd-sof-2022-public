@@ -1,0 +1,58 @@
+variablename,dimension,worst,worst.value,best,best.value
+Access to basic water (C),Human,Austria,-100,Central African Republic (the),-37.2024
+Access to immunisation services (C),Human,Brunei Darussalam,-99,Papua New Guinea,-39
+Access to justice (C),Societal,Denmark,-0.997,Korea (the Democratic People's Republic of),-0.042
+Adolescent birth rate (R),Human,Korea (the Democratic People's Republic of),0.292,Niger (the),177.4642
+Age dependency ratio (R),Human,Qatar,18.10329,Niger (the),109.50329
+Air quality (C),Environmental,Iceland,-96,Pakistan,-5.7
+Arrests from online political content (R),Political,Portugal,-2.888,Korea (the Democratic People's Republic of),3.091
+Attitudes on violence against women (C),Security,Denmark,0,Guinea,92.1
+Biodiversity and habitat (C),Environmental,Belize,-91.9,India,-5.8
+Current account deficit (R),Economic,Papua New Guinea,-22.6085,Maldives,35.46634
+Debt-to-GDP ratio (R),Economic,Hong Kong,2.136,Japan,258.996
+Environment-related displacement (R),Environmental,Armenia,0,Philippines (the),5115.85599
+Exchange rate volatility (R),Economic,United Arab Emirates (the),0,Suriname,0.46568
+Exclusion by social group (R),Societal,Denmark,0.009,Yemen,0.965
+Exposure to hazards (R),Environmental,Finland,0.5,Philippines (the),8.4
+Financial inclusion (C),Economic,Bolivia (Plurinational State of),-68.81,Ukraine,-0.41
+Food supply adequacy (C),Environmental,Ireland,-158,Somalia,-79
+Forced displacement (R),Societal,Brunei Darussalam,0,"Palestine, State of",48216.65037
+Freedom from political killings and torture (R),Political,Iceland,-0.99,Syrian Arab Republic (the),-0.047
+GDP per capita growth (C),Economic,Guyana,-17.18927,Lebanon,10.16635
+Gender gap in secondary school enrollment (C),Human,Lesotho,-1.34967,Chad,-0.53255
+Government cybersecurity capacity (C),Security,Israel,-3.512,Solomon Islands,3.081
+Historical deaths from non-state conflict (R),Security,Albania,0,Mexico,2.81567
+Historical deaths from war (R),Security,Albania,0,Afghanistan,6.45453
+Human inequality (R),Human,Czechia,4.4241,Comoros (the),44.16667
+Income inequality (R),Societal,Azerbaijan,0.66069,Zambia,10.26104
+Interpersonal trust (C),Societal,Denmark,-0.988,Zimbabwe,-0.02856
+Judicial constraints on the executive (C),Political,Switzerland,-0.992,Korea (the Democratic People's Republic of),-0.003
+Lack of adaptive capacity (R),Environmental,New Zealand,0.13854,Chad,0.86372
+Legislative constraints on the executive (C),Political,Sweden,-0.989,Nicaragua,-0.03
+Media freedoms (C),Societal,Belgium,-4,United Arab Emirates (the),0
+Military spending (as % of GNI) (R),Security,Zimbabwe,0.00014,Libya,0.1548
+Natural resource dependence (R),Economic,Malta,0,Congo (the),47.86868
+Non-renewable resource crimes (R),Environmental,Comoros (the),1,Türkiye,9.5
+Participatory environment for CSOs (C),Societal,Norway,-3.148,Korea (the Democratic People's Republic of),3.251
+Perception of corruption (R),Political,Denmark,-88,South Sudan,-11
+Presence of criminal networks (R),Security,Vanuatu,1,Congo (the Democratic Republic of the),9
+Prevalence of clientelism (R),Political,Netherlands (the),0.025,Burundi,0.906
+Prevalence of stunting (R),Human,Estonia,1.2,Burundi,57.6
+Primary completion rate (C),Human,Nepal,-120.44734,South Sudan,-27.43709
+Refugees and IDPs from country of origin (R),Security,Luxembourg,0,Syrian Arab Republic (the),75806.02093
+Regulatory quality (C),Economic,Singapore,-2.20561,Korea (the Democratic People's Republic of),2.33989
+Restrictions on political rights (R),Political,Australia,1,Afghanistan,7
+Rule of law (C),Security,Finland,-2.07888,Venezuela (Bolivarian Republic of),2.3461
+Share of electricity production from renewables (C),Environmental,Albania,-100,Brunei Darussalam,0
+Size of regime support group (C),Political,Greece,-2.929,Turkmenistan,1.878
+Social protection coverage (C),Human,Australia,-100,Guinea-Bissau,-0.9
+State control over territory (C),Security,Belarus,-100,Libya,-40.571
+"Tax revenue, excluding social contributions (C)",Economic,Denmark,-45.88885,Libya,-1.19252
+Unemployment rate (R),Economic,Qatar,0.258,South Africa,33.559
+Urbanisation rate (R),Societal,Moldova (the Republic of),-1.39565,Uganda,5.67478
+Water stress (R),Environmental,Brunei Darussalam,0,Qatar,4.97364
+Women's civil liberties (C),Societal,Denmark,-0.977,Korea (the Democratic People's Republic of),-0.007
+Women's employment in non-agricultural sectors (C),Economic,Ethiopia,-57.2,Yemen,-5
+Women's participation in UNFCCC delegations (C),Environmental,Kyrgyzstan,-1,Azerbaijan,0
+Women's political empowerment (C),Political,Denmark,-0.963,Eritrea,-0.17
+"Youth not in education, employment, or training (R)",Human,Japan,3.11,Niger (the),68.56

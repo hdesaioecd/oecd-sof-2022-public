@@ -1,0 +1,58 @@
+variablename,min.year,max.year,timespan,n,expected,delta
+Access to basic water,2000,2020,21,5419,3675,-1744
+Access to immunisation services,1980,2020,41,7310,7175,-135
+Access to justice,2000,2021,22,3861,3850,-11
+Adolescent birth rate,1960,2020,61,14762,10675,-4087
+Age dependency ratio,1960,2020,61,14720,10675,-4045
+Air quality,2021,2021,1,180,175,-5
+Arrests from online political content,2000,2021,22,3861,3850,-11
+Attitudes on violence against women,2019,2019,1,162,175,13
+Biodiversity and habitat,2021,2021,1,180,175,-5
+Current account deficit,1960,2020,61,6748,10675,3927
+Debt-to-GDP ratio,1980,2021,42,4998,7350,2352
+Environment-related displacement,2008,2021,14,3164,2450,-714
+Exchange rate volatility,1962,2021,60,10818,10500,-318
+Exclusion by social group,2000,2021,22,3860,3850,-10
+Exposure to hazards,2011,2020,10,1910,1750,-160
+Financial inclusion,2004,2020,17,3774,2975,-799
+Food supply adequacy,2001,2019,19,4186,3325,-861
+Forced displacement,2000,2021,22,5522,3850,-1672
+Freedom from political killings and torture,2000,2021,22,3861,3850,-11
+GDP per capita growth,2000,2020,21,4214,3675,-539
+Gender gap in secondary school enrollment,1970,2021,52,8138,9100,962
+Government cybersecurity capacity,2000,2021,22,3861,3850,-11
+Historical deaths from non-state conflict,1991,2021,31,7781,5425,-2356
+Historical deaths from war,1989,2021,33,8283,5775,-2508
+Human inequality,2010,2019,10,1454,1750,296
+Income inequality,2000,2019,20,1331,3500,2169
+Interpersonal trust,2007,2021,15,2505,2625,120
+Judicial constraints on the executive,2000,2021,22,3859,3850,-9
+Lack of adaptive capacity,1995,2019,25,4400,4375,-25
+Legislative constraints on the executive,2000,2021,22,3822,3850,28
+Media freedoms,2012,2021,10,1984,1750,-234
+Military spending (as % of GNI),2000,2021,22,3298,3850,552
+Natural resource dependence,1970,2019,50,11162,8750,-2412
+Non-renewable resource crimes,2021,2021,1,193,175,-18
+Participatory environment for CSOs,2000,2021,22,3861,3850,-11
+Perception of corruption,2012,2021,10,1769,1750,-19
+Presence of criminal networks,2021,2021,1,193,175,-18
+Prevalence of clientelism,2000,2021,22,3861,3850,-11
+Prevalence of stunting,2000,2020,21,4179,3675,-504
+Primary completion rate,1970,2021,52,7181,9100,1919
+Refugees and IDPs from country of origin,2000,2021,22,5544,3850,-1694
+Regulatory quality,1996,2020,25,4506,4375,-131
+Restrictions on political rights,2012,2021,10,1984,1750,-234
+Rule of law,1996,2020,25,4578,4375,-203
+Share of electricity production from renewables,1985,2021,37,5642,6475,833
+Size of regime support group,2000,2020,21,3651,3675,24
+Social protection coverage,2016,2020,5,317,875,558
+State control over territory,2000,2021,22,3779,3850,71
+"Tax revenue, excluding social contributions",1980,2020,41,6325,7175,850
+Unemployment rate,1991,2021,31,7285,5425,-1860
+Urbanisation rate,1960,2020,61,15738,10675,-5063
+Water stress,2019,2019,1,164,175,11
+Women's civil liberties,2000,2021,22,3861,3850,-11
+Women's employment in non-agricultural sectors,1991,2019,29,2520,5075,2555
+Women's participation in UNFCCC delegations,2008,2019,12,2291,2100,-191
+Women's political empowerment,2000,2021,22,3829,3850,21
+"Youth not in education, employment, or training",1976,2021,46,1843,8050,6207

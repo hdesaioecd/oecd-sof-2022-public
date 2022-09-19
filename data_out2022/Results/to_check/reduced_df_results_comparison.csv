@@ -1,0 +1,177 @@
+iso3c,country,original_rank,new_rank,difference_rank
+SOM,Somalia,1,1,0
+YEM,Yemen,2,2,0
+AFG,Afghanistan,3,4,1
+CAF,Central African Republic (the),4,3,-1
+SSD,South Sudan,5,5,0
+COD,Congo (the Democratic Republic of the),6,6,0
+TCD,Chad,7,7,0
+SYR,Syrian Arab Republic (the),8,8,0
+ERI,Eritrea,9,9,0
+COG,Congo (the),10,11,1
+BDI,Burundi,11,13,2
+HTI,Haiti,12,10,-2
+SDN,Sudan (the),13,12,-1
+IRQ,Iraq,14,14,0
+GNQ,Equatorial Guinea,15,15,0
+NER,Niger (the),16,17,1
+MLI,Mali,17,18,1
+LBY,Libya,18,16,-2
+LBR,Liberia,19,19,0
+AGO,Angola,20,22,2
+CMR,Cameroon,21,20,-1
+MDG,Madagascar,22,21,-1
+NGA,Nigeria,23,29,6
+UGA,Uganda,24,23,-1
+GIN,Guinea,25,24,-1
+ZMB,Zambia,26,30,4
+MOZ,Mozambique,27,27,0
+PNG,Papua New Guinea,28,25,-3
+GNB,Guinea-Bissau,29,28,-1
+COM,Comoros (the),30,26,-4
+ZWE,Zimbabwe,31,35,4
+MRT,Mauritania,32,32,0
+MMR,Myanmar,33,31,-2
+BFA,Burkina Faso,34,33,-1
+TJK,Tajikistan,35,34,-1
+BGD,Bangladesh,36,38,2
+PAK,Pakistan,37,37,0
+GMB,Gambia (the),38,43,5
+PSE,"Palestine, State of",39,44,5
+TLS,Timor-Leste,40,36,-4
+ETH,Ethiopia,41,40,-1
+DJI,Djibouti,42,41,-1
+SLE,Sierra Leone,43,39,-4
+KHM,Cambodia,44,42,-2
+VEN,Venezuela (Bolivarian Republic of),45,47,2
+CIV,Côte d'Ivoire,46,45,-1
+SLB,Solomon Islands,47,46,-1
+LAO,Lao People's Democratic Republic (the),48,51,3
+SWZ,Eswatini,49,49,0
+GTM,Guatemala,50,53,3
+KEN,Kenya,51,50,-1
+NIC,Nicaragua,52,52,0
+TGO,Togo,53,48,-5
+TZA,"Tanzania, the United Republic of",54,54,0
+LSO,Lesotho,55,59,4
+HND,Honduras,56,56,0
+TKM,Turkmenistan,57,55,-2
+PRK,Korea (the Democratic People's Republic of),58,57,-1
+BEN,Benin,59,58,-1
+IRN,Iran (Islamic Republic of),60,60,0
+GAB,Gabon,61,63,2
+MWI,Malawi,62,64,2
+AZE,Azerbaijan,63,68,5
+RWA,Rwanda,64,61,-3
+EGY,Egypt,65,65,0
+NPL,Nepal,66,67,1
+SEN,Senegal,67,66,-1
+IDN,Indonesia,68,69,1
+PHL,Philippines (the),69,62,-7
+IND,India,70,71,1
+PRY,Paraguay,71,73,2
+LBN,Lebanon,72,72,0
+STP,Sao Tome and Principe,73,70,-3
+DZA,Algeria,74,74,0
+SLV,El Salvador,75,76,1
+KGZ,Kyrgyzstan,76,82,6
+UZB,Uzbekistan,77,79,2
+ZAF,South Africa,78,75,-3
+COL,Colombia,79,77,-2
+OMN,Oman,80,78,-2
+VUT,Vanuatu,81,95,14
+GHA,Ghana,82,80,-2
+SAU,Saudi Arabia,83,81,-2
+TUR,Turkey,84,85,1
+PER,Peru,85,83,-2
+MEX,Mexico,86,84,-2
+BHR,Bahrain,87,87,0
+SUR,Suriname,88,86,-2
+ECU,Ecuador,89,89,0
+NAM,Namibia,90,88,-2
+DOM,Dominican Republic (the),91,90,-1
+VNM,Viet Nam,92,92,0
+GUY,Guyana,93,94,1
+MDV,Maldives,94,91,-3
+LKA,Sri Lanka,95,96,1
+BTN,Bhutan,96,93,-3
+PAN,Panama,97,97,0
+KWT,Kuwait,98,100,2
+JOR,Jordan,99,104,5
+THA,Thailand,100,99,-1
+BIH,Bosnia and Herzegovina,101,102,1
+BWA,Botswana,102,98,-4
+FJI,Fiji,103,101,-2
+BOL,Bolivia (Plurinational State of),104,103,-1
+ALB,Albania,105,105,0
+KAZ,Kazakhstan,106,107,1
+QAT,Qatar,107,110,3
+CPV,Cabo Verde,108,111,3
+CHN,China,109,109,0
+BRA,Brazil,110,108,-2
+MAR,Morocco,111,106,-5
+CUB,Cuba,112,113,1
+MYS,Malaysia,113,114,1
+BLZ,Belize,114,112,-2
+JAM,Jamaica,115,116,1
+MKD,North Macedonia,116,115,-1
+ARE,United Arab Emirates (the),117,119,2
+UKR,Ukraine,118,118,0
+MUS,Mauritius,119,117,-2
+SRB,Serbia,120,122,2
+ARG,Argentina,121,121,0
+MNG,Mongolia,122,120,-2
+RUS,Russian Federation (the),123,123,0
+TTO,Trinidad and Tobago,124,124,0
+BLR,Belarus,125,125,0
+MDA,Moldova (the Republic of),126,126,0
+GEO,Georgia,127,127,0
+TUN,Tunisia,128,128,0
+ARM,Armenia,129,131,2
+CRI,Costa Rica,130,129,-1
+MNE,Montenegro,131,130,-1
+BGR,Bulgaria,132,132,0
+BRN,Brunei Darussalam,133,133,0
+CHL,Chile,134,134,0
+HUN,Hungary,135,137,2
+HKG,Hong Kong,136,135,-1
+ROM,Romania,137,138,1
+HRV,Croatia,138,139,1
+BRB,Barbados,139,136,-3
+SYC,Seychelles,140,140,0
+SVK,Slovakia,141,141,0
+CYP,Cyprus,142,142,0
+POL,Poland,143,143,0
+URY,Uruguay,144,144,0
+MLT,Malta,145,145,0
+GRC,Greece,146,146,0
+SVN,Slovenia,147,147,0
+CZE,Czechia,148,149,1
+ITA,Italy,149,148,-1
+KOR,Korea (the Republic of),150,150,0
+ISR,Israel,151,151,0
+LTU,Lithuania,152,153,1
+IRL,Ireland,153,154,1
+USA,United States of America (the),154,152,-2
+JPN,Japan,155,156,1
+SGP,Singapore,156,155,-1
+LVA,Latvia,157,157,0
+ESP,Spain,158,158,0
+PRT,Portugal,159,159,0
+GBR,United Kingdom,160,160,0
+FRA,France,161,161,0
+EST,Estonia,162,163,1
+DEU,Germany,163,162,-1
+CHE,Switzerland,164,165,1
+AUT,Austria,165,166,1
+NLD,Netherlands (the),166,164,-2
+AUS,Australia,167,167,0
+BEL,Belgium,168,169,1
+CAN,Canada,169,168,-1
+NOR,Norway,170,170,0
+ISL,Iceland,171,171,0
+NZL,New Zealand,172,172,0
+SWE,Sweden,173,173,0
+LUX,Luxembourg,174,174,0
+FIN,Finland,175,175,0
+DNK,Denmark,176,176,0

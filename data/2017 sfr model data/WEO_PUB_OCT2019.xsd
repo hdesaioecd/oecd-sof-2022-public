@@ -1,0 +1,2127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Ragunath Kumarasamy (INTERNATIONAL MONETARY FUND) -->
+<xs:schema xmlns:dsd="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific" xmlns="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=IMF:WEO_PUB(1.0):ObsLevelDim:TIME_PERIOD" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:compact="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structurespecific" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=IMF:WEO_PUB(1.0):ObsLevelDim:TIME_PERIOD" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" schemaLocation="SDMXCommon.xsd"/>
+	<xs:import namespace="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific" schemaLocation="SDMXDataStructureSpecific.xsd"/>
+	<xs:simpleType name="IMF.CL_WEO_UNIT.1.0">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="A">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Current international dollar</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="B">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Index</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="C">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Index, 2000=100</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="D">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Index, 2005=100</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="E">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">National currency</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="F">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">National currency per current international dollar</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="G">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Percent</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="H">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Percent change</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="I">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Percent change (market exchange rates)</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="J">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Percent of exports of goods and services</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="K">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Percent of GDP</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="L">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Percent of potential GDP</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="M">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Percent of total labor force</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="N">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Persons</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="O">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">U.S. cents</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="P">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">U.S. dollars</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="Q">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">U.S. dollars; annual percent change</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="R">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">U.S. dollars; index, 2000=100</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="S">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Purchasing power parity; 2011 international dollar</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="T">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Purchasing power parity; international dollars</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="IMF.CL_WEO_CONCEPT.1.0">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="BCA">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Current account balance</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="BCA_NGDPD">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Current account balance</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="BF">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Financial account balance</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="BFD">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Direct investment, net</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="BFF">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Financial derivatives, net</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="BFO">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Other investment, net</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="BFP">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Portfolio investment, net</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="BFRA">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Change in reserves</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="BM">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Imports of goods and services</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="BX">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Exports of goods and services</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="D">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">External debt, total</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="D_BX">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">External debt, total</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="D_NGDPD">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">External debt, total</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="DS">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">External debt, total debt service</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="DS_BX">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">External debt, total debt service</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="DS_NGDPD">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">External debt, total debt service</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="DSI">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">External debt, total debt service, interest</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="DSI_BX">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">External debt, total debt service, interest</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="DSI_NGDPD">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">External debt, total debt service, interest</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="DSP">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">External debt, total debt service, amortization</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="DSP_BX">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">External debt, total debt service, amortization</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="DSP_NGDPD">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">External debt, total debt service, amortization</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="FLIBOR3">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Three-month London interbank offered rate (LIBOR)</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="FLIBOR6">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Six-month London interbank offered rate (LIBOR)</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="GGR">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">General government revenue</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="GGR_NGDP">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">General government revenue</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="GGSB">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">General government structural balance</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="GGSB_NPGDP">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">General government structural balance</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="GGX">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">General government total expenditure</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="GGX_NGDP">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">General government total expenditure</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="GGXCNL">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">General government net lending/borrowing</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="GGXCNL_NGDP">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">General government net lending/borrowing</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="GGXONLB">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">General government primary net lending/borrowing</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="GGXONLB_NGDP">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">General government primary net lending/borrowing</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="GGXWDG">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">General government gross debt</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="GGXWDG_NGDP">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">General government gross debt</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="GGXWDN">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">General government net debt</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="GGXWDN_NGDP">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">General government net debt</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="LE">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Employment</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="LP">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Population</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="LUR">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Unemployment rate</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="NGAP_NPGDP">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Output gap in percent of potential GDP</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="NGDP">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Gross domestic product, current prices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="NGDP_D">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Gross domestic product, deflator</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="NGDP_FY">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Gross domestic product corresponding to fiscal year, current prices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="NGDP_R">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Gross domestic product, constant prices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="NGDP_RPCH">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Gross domestic product, constant prices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="NGDP_RPCHMK">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Gross domestic product, constant prices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="NGDPD">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Gross domestic product, current prices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="NGDPDPC">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Gross domestic product per capita, current prices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="NGDPPC">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Gross domestic product per capita, current prices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="NGDPRPC">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Gross domestic product per capita, constant prices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="NGDPRPPPPC">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Gross domestic product per capita, constant prices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="NGSD_NGDP">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Gross national savings</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="NID_NGDP">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Total investment</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PALLFNFW">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Commodity Price Index includes both Fuel and Non-Fuel Price Indices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PALUM">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Aluminum, 99.5% minimum purity, LME spot price, CIF UK ports, US$ per metric tonne</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PBANSOP">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Bananas, Central American and Ecuador, FOB U.S. Ports, US$ per metric tonne</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PBARL">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Barley, Canadian no.1 Western Barley, spot price, US$ per metric tonne</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PBEEF">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Beef, Australian and New Zealand 85% lean fores, FOB U.S. import price, US cents per pound</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PBEVEW">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Commodity Beverage Price Index includes Coffee, Tea, and Cocoa</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PCEREW">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Commodity Cereals Price Index includes Wheat, Maize (Corn), Rice, and Barley</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PCOALAU">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Coal, Australian thermal coal, 1200- btu/pound, less than 1% sulfur, 14% ash, FOB Newcastle/Port Kembla, US$ per metric tonne</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PCOALSA">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Coal, South African export price, US$ per metric tonne</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PCOALW">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Commodity Coal Price Index includes Australian and South African Coal</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PCOCO">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Cocoa beans, International Cocoa Organization cash price, CIF US and European ports, US$ per metric tonne</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PCOFFOTM">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Coffee, Other Mild Arabicas, International Coffee Organization New York cash price, ex-dock New York, US cents per pound</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PCOFFROB">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Coffee, Robusta, International Coffee Organization New York cash price, ex-dock New York, US cents per pound</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PCOFFW">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Commodity Coffee Price Index includes Other Mild Arabicas and Robusta</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PCOPP">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Copper, grade A cathode, LME spot price, CIF European ports, US$ per metric tonne</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PCOTTIND">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Cotton, Cotton Outlook `A Index`, Middling 1-3/32 inch staple, CIF Liverpool, US cents per pound</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PCPI">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Inflation, average consumer prices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PCPIE">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Inflation, end of period consumer prices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PCPIEPCH">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Inflation, end of period consumer prices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PCPIPCH">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Inflation, average consumer prices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PFANDBW">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Commodity Food and Beverage Price Index includes Food and Beverage Price Indices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PFISH">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Fishmeal, Peru Fish meal/pellets 65% protein, CIF, US$ per metric tonne</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PFOODW">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Commodity Food Price Index includes Cereal, Vegetable Oils, Meat, Seafood, Sugar, Bananas, and Oranges Price Indices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PGNUTS">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Groundnuts (peanuts), 40/50 (40 to 50 count per ounce), cif Argentina, US$ per metric tonne</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PHARDW">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Commodity Hardwood Price Index includes Hardwood Logs and Hardwood Sawn Price Indices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PHIDE">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Hides, Heavy native steers, over 53 pounds, wholesale dealer`s price, US cents per pound</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PINDUW">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Commodity Industrial Inputs Price Index includes Agricultural Raw Materials and Metals Price Indices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PIORECR">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Iron Ore, China import Iron Ore Fines 62% FE spot (CFR Tianjin port) US$ per metric ton</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PLAMB">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Lamb, frozen carcass Smithfield London, US cents per pound</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PLEAD">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Lead, 99.97% pure, LME spot price, CIF European Ports, US$ per metric tonne</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PLOGORE">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Soft Logs, Average Export price from the U.S. for Douglas Fir, US$ per cubic meter</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PLOGSK">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Hard Logs, Best quality Malaysian meranti, import price Japan, US$ per cubic meter</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PMAIZMT">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Maize (corn), U.S. No.2 Yellow, FOB Gulf of Mexico, U.S. price, US$ per metric tonne</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PMEATW">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Commodity Meat Price Index includes Beef, Lamb, Swine (pork), and Poultry Price Indices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PMETAW">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Commodity Metals Price Index includes Copper, Aluminum, Iron Ore, Tin, Nickel, Zinc, Lead, and Uranium Price Indices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PNFUELW">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Commodity Non-Fuel Price Index includes Food and Beverages and Industrial Inputs Price Indices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PNGASEU">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Natural Gas, Russian Natural Gas border price in Germany, US$ per million metric British thermal units of gas</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PNGASJP">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Natural Gas, Indonesian Liquified Natural Gas in Japan, US$ per million metric British thermal units of liquid</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PNGASUS">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Natural Gas, Natural Gas spot price at the Henry Hub terminal in Louisiana, US$ per million metric British thermal units of gas</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PNGASW">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Commodity Natural Gas Price Index includes European, Japanese, and American Natural Gas Price Indices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PNICK">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Nickel, melting grade, LME spot price, CIF European ports, US$ per metric tonne</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PNRGW">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Commodity Fuel (energy) Index includes Crude oil (petroleum), Natural Gas, and Coal Price Indices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="POILAPSP">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Crude Oil (petroleum), simple average of three spot prices; Dated Brent, West Texas Intermediate, and the Dubai Fateh, US$ per barrel</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="POILAPSPW">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Crude Oil (petroleum), Price index simple average of three spot prices (APSP); Dated Brent, West Texas Intermediate, and the Dubai Fateh</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="POILBRE">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Crude Oil (petroleum),  Dated Brent, light blend 38 API, fob U.K., US$ per barrel</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="POILDUB">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Oil; Dubai, medium, Fateh 32 API, fob Dubai Crude Oil (petroleum), Dubai Fateh Fateh 32 API, US$ per barrel</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="POILWTI">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Crude Oil (petroleum), West Texas Intermediate 40 API, Midland Texas, US$ per barrel</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="POLVOIL">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Olive Oil, extra virgin less than 1% free fatty acid, ex-tanker price U.K., US$ per metric tonne</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PORANG">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Oranges, miscellaneous oranges French import price, US$ per metric tonne</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PPOIL">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Palm oil, Malaysia Palm Oil Futures (first contract forward) 4-5 percent FFA, US$ per metric tonne</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PPORK">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Swine (pork), 51-52% lean Hogs, U.S. price, US cents per pound</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PPOULT">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Poultry (chicken), Whole bird spot price, Georgia docks, US cents per pound</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PPPEX">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Implied PPP conversion rate</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PPPGDP">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Gross domestic product based on purchasing-power-parity (PPP) valuation of country GDP</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PPPPC">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Gross domestic product based on purchasing-power-parity (PPP) per capita GDP</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PPPSH">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Gross domestic product based on purchasing-power-parity (PPP) share of world total</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PRAWMW">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Commodity Agricultural Raw Materials Index includes Timber, Cotton, Wool, Rubber, and Hides Price Indices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PRICENPQ">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Rice, 5 percent broken milled white rice, Thailand nominal price quote, US$ per metric tonne</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PROIL">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Rapeseed oil, crude, FOB Rotterdam, US$ per metric ton</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PRUBB">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Rubber, No.1 Rubber Smoked Sheet, FOB Maylaysian/Singapore, US cents per pound</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PSALM">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Fish (salmon), Farm Bred Norwegian Salmon, export price, US$ per kilogram</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PSAWMAL">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Hard Sawnwood, Dark Red Meranti, select and better quality, C&amp;F U.K port, US$ per cubic meter</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PSAWORE">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Soft Sawnwood, average export price of Douglas Fir, U.S. Price, US$ per cubic meter</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PSEAFW">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Commodity Seafood Index includes Fish (salmon) and Shrimp Price Indices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PSHRI">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Shrimp, Frozen shell-on headless, block 16/20 count, Indian origin, C&amp;F Japan, US$ per kilogram</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PSMEA">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Soybean Meal, Chicago Soybean Meal Futures (first contract forward) Minimum 48 percent protein, US$ per metric tonne</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PSOFTW">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Commodity Softwood Index includes Softwood Sawn and Softwood Logs Price Indices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PSOIL">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Soybean Oil, Chicago Soybean Oil Futures (first contract forward) exchange approved grades, US$ per metric tonne</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PSOYB">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Soybeans, U.S. soybeans, Chicago Soybean futures contract (first contract forward) No. 2 yellow and par, US$ per metric tonne</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PSUGAEEC">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Sugar, European import price, CIF Europe, US cents per pound</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PSUGAISA">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Sugar, Free Market, Coffee Sugar and Cocoa Exchange (CSCE) contract no.11 nearest future position, US cents per pound</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PSUGAUSA">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Sugar, U.S. import price, contract no.14 nearest futures position, US cents per pound</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PSUGAW">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Commodity Sugar Index includes European, Free market, and U.S. Price Indices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PSUNO">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Sunflower Oil, US export price from Gulf of Mexico, US$ per metric tonne</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PTEA">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Tea, Mombasa, Kenya, Auction Price, US cents per kilogram</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PTIMBW">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Commodity Timber Index includes Hardwood and Softwood Price Indices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PTIN">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Tin, standard grade, LME spot price, US$ per metric tonne</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PURAN">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Uranium, u3o8 restricted price, Nuexco exchange spot, US$ per pound</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PVOILW">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Commodity Vegetable Oil Index includes Soybean, Soybean Meal, Soybean Oil, Rapeseed Oil, Palm Oil, Sunflower Oil, Olive Oil, Fishmeal, and Groundnut Price Indices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PWHEAMT">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Wheat, No.1 Hard Red Winter, ordinary protein, FOB Gulf of Mexico, US$ per metric tonne</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PWOOLC">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Wool, coarse, 23 micron, Australian Wool Exchange spot quote, US cents per kilogram</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PWOOLF">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Wool, fine, 19 micron, Australian Wool Exchange spot quote, US cents per kilogram</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PWOOLW">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Commodity Wool Index includes Coarse and Fine Wool Price Indices</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="PZINC">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Zinc, high grade 98% pure, US$ per metric tonne</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="TM_RPCH">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Volume of imports of goods and services</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="TMG_RPCH">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Volume of Imports of goods</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="TRADEPCH">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Trade volume of goods and services</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="TTPCH">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Terms of trade of goods and services</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="TTTPCH">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Terms of trade of goods</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="TX_RPCH">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Volume of exports of goods and services</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="TXG_RPCH">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Volume of exports of goods</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="TXGM_D">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Export price of manufactures</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="TXGM_DPCH">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Export price of manufactures</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="IMF.CL_WEO_REF_AREA.1.0">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="001">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">World</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="110">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Advanced Economies</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="111">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">United States</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="112">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">United Kingdom</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="119">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">G7</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="122">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Austria</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="123">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Other Advanced Economies (Advanced Economies excluding G7 and Euro Area countries)</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="124">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Belgium</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="128">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Denmark</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="132">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">France</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="134">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Germany</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="135">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">San Marino</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="136">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Italy</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="137">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Luxembourg</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="138">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Netherlands</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="142">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Norway</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="144">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Sweden</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="146">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Switzerland</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="156">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Canada</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="158">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Japan</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="163">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Euro area</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="172">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Finland</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="174">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Greece</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="176">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Iceland</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="178">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Ireland</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="181">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Malta</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="182">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Portugal</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="184">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Spain</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="186">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Turkey</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="193">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Australia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="196">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">New Zealand</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="199">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">South Africa</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="200">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Emerging Market and Developing Economies</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="205">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Latin America and the Caribbean</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="213">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Argentina</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="218">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Bolivia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="223">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Brazil</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="228">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Chile</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="233">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Colombia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="238">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Costa Rica</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="243">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Dominican Republic</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="248">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Ecuador</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="253">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">El Salvador</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="258">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Guatemala</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="263">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Haiti</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="268">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Honduras</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="273">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Mexico</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="278">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Nicaragua</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="283">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Panama</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="288">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Paraguay</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="293">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Peru</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="298">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Uruguay</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="299">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Venezuela</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="311">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Antigua and Barbuda</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="313">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Bahamas, The</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="314">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Aruba</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="316">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Barbados</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="321">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Dominica</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="328">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Grenada</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="336">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Guyana</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="339">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Belize</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="343">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Jamaica</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="359">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Puerto Rico</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="361">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">St. Kitts and Nevis</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="362">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">St. Lucia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="364">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">St. Vincent and the Grenadines</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="366">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Suriname</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="369">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Trinidad and Tobago</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="400">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Middle East and Central Asia (MECA)</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="419">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Bahrain</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="423">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Cyprus</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="429">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Iran</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="433">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Iraq</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="436">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Israel</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="439">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Jordan</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="443">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Kuwait</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="446">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Lebanon</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="449">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Oman</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="453">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Qatar</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="456">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Saudi Arabia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="463">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Syria</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="466">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">United Arab Emirates</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="469">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Egypt</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="474">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Yemen</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="505">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Emerging and Developing Asia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="511">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">ASEAN-5</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="512">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Afghanistan</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="513">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Bangladesh</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="514">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Bhutan</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="516">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Brunei Darussalam</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="518">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Myanmar</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="522">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Cambodia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="524">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Sri Lanka</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="528">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Taiwan Province of China</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="532">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Hong Kong SAR</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="534">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">India</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="536">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Indonesia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="537">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Timor-Leste</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="542">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Korea</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="544">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Lao P.D.R.</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="546">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Macao SAR</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="548">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Malaysia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="556">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Maldives</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="558">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Nepal</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="564">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Pakistan</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="565">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Palau</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="566">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Philippines</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="576">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Singapore</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="578">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Thailand</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="582">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Vietnam</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="603">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Sub-Sahara Africa</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="611">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Djibouti</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="612">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Algeria</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="614">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Angola</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="616">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Botswana</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="618">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Burundi</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="622">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Cameroon</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="624">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Cabo Verde</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="626">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Central African Republic</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="628">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Chad</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="632">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Comoros</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="634">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Congo, Republic of</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="636">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Congo, Democratic Republic of the</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="638">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Benin</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="642">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Equatorial Guinea</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="643">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Eritrea</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="644">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Ethiopia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="646">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Gabon</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="648">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Gambia, The</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="652">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Ghana</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="654">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Guinea-Bissau</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="656">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Guinea</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="662">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Côte d'Ivoire</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="664">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Kenya</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="666">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Lesotho</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="668">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Liberia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="672">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Libya</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="674">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Madagascar</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="676">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Malawi</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="678">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Mali</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="682">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Mauritania</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="684">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Mauritius</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="686">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Morocco</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="688">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Mozambique</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="692">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Niger</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="694">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Nigeria</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="698">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Zimbabwe</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="714">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Rwanda</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="716">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">São Tomé and Príncipe</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="718">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Seychelles</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="722">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Senegal</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="724">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Sierra Leone</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="726">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Somalia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="728">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Namibia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="732">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Sudan</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="733">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">South Sudan</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="734">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Eswatini</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="738">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Tanzania</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="742">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Togo</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="744">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Tunisia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="746">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Uganda</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="748">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Burkina Faso</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="754">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Zambia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="813">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Solomon Islands</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="819">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Fiji</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="826">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Kiribati</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="836">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Nauru</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="846">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Vanuatu</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="853">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Papua New Guinea</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="862">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Samoa</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="866">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Tonga</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="867">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Marshall Islands</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="868">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Micronesia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="869">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Tuvalu</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="903">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Emerging and Developing Europe</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="911">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Armenia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="912">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Azerbaijan</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="913">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Belarus</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="914">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Albania</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="915">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Georgia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="916">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Kazakhstan</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="917">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Kyrgyz Republic</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="918">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Bulgaria</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="921">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Moldova</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="922">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Russia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="923">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Tajikistan</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="924">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">China</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="925">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Turkmenistan</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="926">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Ukraine</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="927">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Uzbekistan</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="935">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Czech Republic</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="936">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Slovak Republic</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="939">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Estonia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="941">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Latvia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="942">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Serbia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="943">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Montenegro, Rep. of</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="944">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Hungary</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="946">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Lithuania</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="948">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Mongolia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="960">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Croatia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="961">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Slovenia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="962">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">North Macedonia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="963">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Bosnia and Herzegovina</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="964">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Poland</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="967">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Kosovo</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="968">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Romania</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="998">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">European Union</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="IMF.CL_FREQ.1.0">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="A">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Annual</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="B">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Daily - business week</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="D">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Daily</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="M">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Monthly</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="N">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Minutely</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="Q">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Quarterly</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="S">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Half-yearly, semester</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="W">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Weekly</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="IMF.CL_WEO_LASTACTUALDATE.1.0">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="0">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">0</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="1983">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">1983</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="2000">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">2000</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="2001">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">2001</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="2002">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">2002</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="2003">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">2003</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="2004">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">2004</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="2005">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">2005</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="2006">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">2006</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="2007">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">2007</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="2008">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">2008</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="2009">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">2009</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="2010">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">2010</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="2011">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">2011</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="2012">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">2012</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="2013">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">2013</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="2014">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">2014</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="2015">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">2015</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="2016">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">2016</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="2017">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">2017</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="2018">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">2018</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="2019">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">2019</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="NULL">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">NULL</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="TIME_PERIOD">
+		<xs:restriction base="common:ObservationalTimePeriodType"/>
+	</xs:simpleType>
+	<xs:simpleType name="IMF.CL_WEO_SCALE.1.0">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="1">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Units</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="1000000">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Millions</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="1000000000">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">Billions</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="NULL">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">NULL</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="NOTES">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="DataSet" type="DataSetType"/>
+	<xs:complexType name="DataSetType">
+		<xs:complexContent>
+			<xs:restriction base="dsd:TimeSeriesDataSetType">
+				<xs:sequence>
+					<xs:element ref="common:Annotations" minOccurs="0"/>
+					<xs:element name="DataProvider" type="common:DataProviderReferenceType" form="unqualified" minOccurs="0"/>
+					<xs:choice minOccurs="0">
+						<xs:element name="Series" type="SeriesType" form="unqualified" maxOccurs="unbounded"/>
+					</xs:choice>
+				</xs:sequence>
+			</xs:restriction>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="SeriesType">
+		<xs:complexContent>
+			<xs:restriction base="dsd:TimeSeriesType">
+				<xs:sequence>
+					<xs:element ref="common:Annotations" minOccurs="0"/>
+					<xs:element name="Obs" type="ObsType" form="unqualified" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+				<xs:attribute name="UNIT" type="IMF.CL_WEO_UNIT.1.0" use="required"/>
+				<xs:attribute name="CONCEPT" type="IMF.CL_WEO_CONCEPT.1.0" use="required"/>
+				<xs:attribute name="REF_AREA" type="IMF.CL_WEO_REF_AREA.1.0" use="required"/>
+				<xs:attribute name="FREQ" type="IMF.CL_FREQ.1.0" use="required"/>
+				<xs:attribute name="LASTACTUALDATE" type="IMF.CL_WEO_LASTACTUALDATE.1.0" use="required"/>
+				<xs:attribute name="SCALE" type="IMF.CL_WEO_SCALE.1.0" use="optional"/>
+				<xs:attribute name="NOTES" type="xs:string" use="optional"/>
+			</xs:restriction>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ObsType">
+		<xs:complexContent>
+			<xs:restriction base="dsd:TimeSeriesObsType">
+				<xs:sequence>
+					<xs:element ref="common:Annotations" minOccurs="0"/>
+				</xs:sequence>
+				<xs:attribute name="OBS_VALUE" type="xs:string" use="optional"/>
+			</xs:restriction>
+		</xs:complexContent>
+	</xs:complexType>
+</xs:schema>

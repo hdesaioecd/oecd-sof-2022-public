@@ -1,0 +1,61 @@
+		(1)	(2)	(3)	(4)	(5)	(6)	(7)	(8)	(9)	(10)
+VARIABLES	LABELS	Reported on budget	Use of PFM systems	Use of PIUs	Use of programmatic aid	Joint activities	Aid through others	Multilateral aid	Multi-bi aid	Predictable funding	Volatility
+											
+fragile	Fragile Dummy	77.9	5.4	-1.4	38.2	-63.1	-39.7	13.6	-7.5	19.1	-46.6**
+		(56.9)	(69.9)	(19.6)	(43.2)	(46.1)	(30.3)	(12.0)	(5.0)	(50.0)	(20.7)
+gdp	log(GDP Per Capita)	-1.3	1.7	2.2*	-5.2*	2.4	1.0	-8.0***	-2.7***	-0.6	-7.4***
+		(3.4)	(3.6)	(1.2)	(2.7)	(2.9)	(1.7)	(0.7)	(0.4)	(3.0)	(1.3)
+pop	Population (millions)	-0.0	-0.1	-0.0	0.0	-0.0	0.0	-0.0***	-0.0***	0.0	-0.0
+		(0.0)	(0.1)	(0.0)	(0.0)	(0.0)	(0.0)	(0.0)	(0.0)	(0.0)	(0.0)
+2008.year	Year = 2008							0.5	0.9		
+								(1.8)	(0.7)		
+2009.year	Year = 2009							2.8	1.9***		
+								(1.8)	(0.7)		
+2010.year	Year = 2010	-1.2	-1.0	-4.1**	-4.0	-2.8		0.9	2.3***	3.6	
+		(4.7)	(5.5)	(1.8)	(3.9)	(4.2)		(1.8)	(0.7)	(4.4)	
+2011.year	Year = 2011							0.7	2.4***		0.4
+								(1.8)	(0.8)		(1.8)
+2012.year	Year = 2012							1.1	2.7***		-0.8
+								(1.9)	(0.8)		(1.8)
+2013.year	Year = 2013	-3.9	-2.8				2.0	0.7	2.6***	2.2	1.9
+		(6.3)	(7.3)				(2.0)	(1.9)	(0.8)	(5.8)	(1.9)
+sector1	Pct Aid in Education Sector	0.0	1.0	0.3	-0.0	-0.2	-0.8**	0.2*	-0.1	0.3	-0.6***
+		(0.5)	(0.9)	(0.2)	(0.5)	(0.5)	(0.3)	(0.1)	(0.1)	(0.5)	(0.2)
+sector2	Pct Aid in Health Sector	-0.6*	-0.0	-0.0	-0.0	0.2	-0.6***	0.1*	-0.3***	1.3***	-0.6***
+		(0.4)	(0.6)	(0.1)	(0.3)	(0.3)	(0.2)	(0.1)	(0.0)	(0.3)	(0.1)
+sector3	Pct Aid in Water and Sanitation Sector	0.7	0.1	-0.3	0.2	0.8	-0.0	-0.0	-0.2***	0.4	-0.2
+		(0.5)	(0.7)	(0.3)	(0.6)	(0.6)	(0.3)	(0.1)	(0.1)	(0.5)	(0.2)
+sector4	Pct Aid in Government and Civil Society Sector	0.1	-0.5	0.1	-0.7**	-0.5*	-0.7***	-0.1	-0.1**	0.6*	-0.6***
+		(0.4)	(0.7)	(0.1)	(0.3)	(0.3)	(0.2)	(0.1)	(0.0)	(0.4)	(0.1)
+sector5	Pct Aid in Physical Infrastructure Sector	-0.0	0.6	-0.1	0.3	0.2	-0.6***	0.1	-0.2***	-0.0	-0.5***
+		(0.3)	(0.5)	(0.1)	(0.3)	(0.3)	(0.2)	(0.1)	(0.0)	(0.3)	(0.1)
+sector6	Pct Aid in Financial Infrastructure Sector	-0.5	-0.7	-0.1	-0.0	-0.2	-0.2	0.5***	-0.1***	1.0**	-0.6***
+		(0.5)	(0.8)	(0.2)	(0.4)	(0.4)	(0.2)	(0.1)	(0.0)	(0.4)	(0.2)
+sector7	Pct Aid in Agriculture Sector	0.8	0.1	0.1	-0.7	-0.8*	-0.4	0.6***	-0.3***	0.3	-0.5**
+		(0.5)	(0.7)	(0.2)	(0.4)	(0.5)	(0.3)	(0.2)	(0.1)	(0.5)	(0.2)
+sector8	Pct Aid in Other Economic Production Sector	0.2	-0.9	0.1	-0.5	-0.8*	0.0	-0.0	-0.0	0.4	-0.2
+		(0.4)	(0.8)	(0.2)	(0.4)	(0.4)	(0.2)	(0.1)	(0.0)	(0.4)	(0.2)
+sector1xfragile	Pct Aid in Education Sector x Fragile	-0.1	-0.3	-0.3	-0.6	1.5	-0.1	-0.7**	0.1	0.8	2.2***
+		(1.3)	(1.6)	(0.5)	(1.2)	(1.3)	(0.8)	(0.3)	(0.1)	(1.4)	(0.4)
+sector2xfragile	Pct Aid in Health Sector x Fragile	-0.4	0.3	0.3	-0.6	0.0	0.0	0.2	0.2***	-0.2	0.6**
+		(0.7)	(0.9)	(0.2)	(0.5)	(0.5)	(0.3)	(0.2)	(0.1)	(0.6)	(0.3)
+sector3xfragile	Pct Aid in Water and Sanitation Sector x Fragile	-1.8	-0.0	0.0	0.7	-0.3	1.2	2.0***	-0.1	0.7	-1.0
+		(1.7)	(1.8)	(0.7)	(1.5)	(1.6)	(1.0)	(0.5)	(0.2)	(1.7)	(0.7)
+sector4xfragile	Pct Aid in Government and Civil Society Sector x Fragile	-1.5**	0.3	-0.1	-0.1	1.1*	1.1***	-0.4***	0.3***	-0.6	0.4
+		(0.7)	(0.9)	(0.2)	(0.5)	(0.6)	(0.4)	(0.2)	(0.1)	(0.6)	(0.3)
+sector5xfragile	Pct Aid in Physical Infrastructure Sector x Fragile	-1.9***	-1.8*	0.1	-1.2**	-0.1	0.5	-0.0	0.1	0.5	0.6**
+		(0.7)	(0.9)	(0.2)	(0.5)	(0.5)	(0.4)	(0.2)	(0.1)	(0.6)	(0.3)
+sector6xfragile	Pct Aid in Financial Infrastructure Sector x Fragile	-0.7	2.8*	0.1	-1.7*	2.3**	0.8	-0.6*	0.1	-2.0*	0.8
+		(1.2)	(1.6)	(0.4)	(1.0)	(1.0)	(0.9)	(0.3)	(0.1)	(1.1)	(0.6)
+sector7xfragile	Pct Aid in Agriculture Sector x Fragile	-0.2	0.4	-0.1	-0.0	0.8	0.8	-1.5***	0.2	-0.3	0.7
+		(1.1)	(1.4)	(0.5)	(1.0)	(1.1)	(0.7)	(0.3)	(0.1)	(1.1)	(0.5)
+sector8xfragile	Pct Aid in Other Economic Production Sector x Fragile	-1.6*	-0.3	0.2	-0.3	1.3	-0.0	-0.0	-0.4***	-1.1	0.9**
+		(0.9)	(1.5)	(0.6)	(1.3)	(1.3)	(0.5)	(0.3)	(0.1)	(1.5)	(0.4)
+Constant	Constant	110.0***	-87.5*	-2.3	60.3*	29.8	39.8*	82.8***	34.8***	5.4	154.7***
+		(40.5)	(51.5)	(15.9)	(35.0)	(37.4)	(20.5)	(8.6)	(5.0)	(37.8)	(16.8)
+											
+Observations		161	130	131	131	131	115	937	937	170	531
+R-squared		0.7	0.8	0.6	0.6	0.6	0.7	0.4	0.7	0.6	0.6
+# of Recipients		81	61	80	80	80	83	135	135	81	134
+Standard errors in parentheses											
+*** p<0.01, ** p<0.05, * p<0.1											

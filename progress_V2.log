@@ -1,0 +1,1012 @@
+WARN [2022-08-04 19:05:27] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:05:27] WARNING in script : 01-WDI
+WARN [2022-08-04 19:05:27] The following geocodes could not be converted : 
+character(0)
+WARN [2022-08-04 19:05:27] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:05:27] WARNING in script : 01-WDI
+WARN [2022-08-04 19:05:27] The following geocodes are missing for the latest year : 
+c("Antigua and Barbuda", "Aruba", "Curacao", "Grenada", "Kiribati", "Micronesia, Fed. Sts.", "Seychelles", "American Samoa", "Andorra", "Bermuda", "British Virgin Islands", "Cayman Islands", "Dominica", "Faroe Islands", "Gibraltar", "Greenland", "Isle of Man", "Liechtenstein", "Marshall Islands", "Monaco", "Nauru", "Northern Mariana Islands", "Palau", "San Marino", "Sint Maarten (Dutch part)", "St. Kitts and Nevis", "Turks and Caicos Islands", "Tuvalu", "Kosovo", "St. Martin (French part)")
+WARN [2022-08-04 19:05:28] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:05:28] WARNING in script : 01-WDI
+WARN [2022-08-04 19:05:28] Some columns have NA values : 
+iso3c_CONVERT has 20021 NA values
+WARN [2022-08-04 19:05:29] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:05:29] WARNING in script : 
+WARN [2022-08-04 19:05:29] The following geocodes are missing for the latest year : 
+c("Afghanistan", "Cabo Verde", "Cuba", "Ethiopia", "Ghana", "Guinea", "Iraq", "Jamaica", "Lao People's Democratic Republic (the)", "Liberia", "Libya", "Malawi", "Mauritania", "Myanmar", "Nigeria", "Sao Tome and Principe", "Sierra Leone", "Solomon Islands", "Somalia", "Sri Lanka", "Sudan (the)", "Syrian Arab Republic (the)", "Tanzania, the United Republic of", "Türkiye", "Turkmenistan", "Vanuatu", "Venezuela (Bolivarian Republic of)", "Zimbabwe")
+WARN [2022-08-04 19:05:30] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:05:30] WARNING in script : 05-debt-to-GDP-ratio
+WARN [2022-08-04 19:05:30] The following geocodes are missing for the latest year : 
+c("Spain", "Japan", "Belgium", "Finland", "Equatorial Guinea", "Netherlands (the)", "Iceland", "Comoros (the)", "New Zealand", "Brunei Darussalam", "Italy", "Austria", "Jordan", "Kiribati", "Congo (the)", "Australia", "Syrian Arab Republic (the)", "Seychelles", "Saint Lucia", "Bahrain", "Antigua and Barbuda", "Gabon", "Ghana", "Sri Lanka", "Morocco", "Malaysia", "Qatar", "Madagascar", "Korea (the Republic of)", "Nigeria", "Switzerland", "El Salvador", "India", "Grenada", "Algeria", "Vanuatu", "Kuwait", 
+"Sudan (the)", "Denmark", "Namibia", "Sweden", "Eswatini", "Barbados", "Papua New Guinea", "Aruba", "Cyprus", "Rwanda", "Hungary", "Malta", "Poland", "Slovakia", "China", "Czechia", "Niger (the)", "Luxembourg", "Ireland", "Micronesia (Federated States of)", "Armenia", "Colombia", "Thailand", "Cambodia", "Senegal", "Iran (Islamic Republic of)", "Maldives", "Cabo Verde", "Dominican Republic (the)", "Guinea-Bissau", "Uganda", "Albania", "Côte d'Ivoire", "Nicaragua", "Taiwan (Province of China)", "Turkmenistan", 
+"Central African Republic (the)", "Marshall Islands (the)", "Croatia", "Lithuania", "Kenya", "Tajikistan", "Latvia", "Bosnia and Herzegovina", "Cameroon", "Myanmar", "Venezuela (Bolivarian Republic of)", "Mozambique", "United Arab Emirates (the)", "Yemen", "Tonga", "Chad", "Angola", "Bolivia (Plurinational State of)", "Romania", "Israel", "Brazil", "Liberia", "Nepal", "Mali", "Burundi", "Serbia", "Mauritania", "Gambia (the)", "Congo (the Democratic Republic of the)", "Viet Nam", "Eritrea", "Lebanon", 
+"Belize", "United States of America (the)", "Lao People's Democratic Republic (the)", "Andorra", "Sao Tome and Principe", "Ecuador", "Sierra Leone", "Timor-Leste", "Macao", "Montenegro", "Burkina Faso", "Afghanistan", "Solomon Islands", "Bangladesh", "Iraq", "San Marino", "Belarus", "Zimbabwe", "Togo", "Tuvalu", "Puerto Rico", "Djibouti", "South Sudan")
+WARN [2022-08-04 19:05:31] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:05:31] WARNING in script : 06-gdp growth rate
+WARN [2022-08-04 19:05:31] Some columns have NA values : 
+value has 3101 NA values
+WARN [2022-08-04 19:05:31] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:05:31] WARNING in script : 06-gdp growth rate
+WARN [2022-08-04 19:05:31] The following geocodes are missing for the latest year : 
+c("Aruba", "Channel Islands", "Eritrea", "Greenland", "Isle of Man", "Liechtenstein", "New Caledonia", "Northern Mariana Islands (the)", "San Marino", "Sint Maarten (Dutch part)", "South Sudan", "Syrian Arab Republic (the)", "Turkmenistan", "Venezuela (Bolivarian Republic of)", "Virgin Islands (U.S.)", "Yemen")
+WARN [2022-08-04 19:05:31] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:05:31] WARNING in script : 07-corruption
+WARN [2022-08-04 19:05:31] The following geocodes are missing for the latest year : 
+BRN
+WARN [2022-08-04 19:05:32] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:05:32] WARNING in script : 
+WARN [2022-08-04 19:05:32] Some columns have NA values : 
+value has 496 NA values
+iso3c_CONVERT has 110 NA values
+iso3c has 110 NA values
+WARN [2022-08-04 19:05:32] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:05:32] WARNING in script : 08-coefficient of human inequality
+WARN [2022-08-04 19:05:32] The following geocodes are missing for the latest year : 
+c("Afghanistan", "Bahamas (the)", "Botswana", "Cabo Verde", "Djibouti", "Fiji", "Micronesia (Federated States of)", "Lebanon", "Morocco", "Myanmar", "Solomon Islands", "Syrian Arab Republic (the)", "Trinidad and Tobago", "Uzbekistan", "Vanuatu")
+WARN [2022-08-04 19:05:34] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:05:34] WARNING in script : 10-political rights
+WARN [2022-08-04 19:05:34] The following geocodes could not be converted : 
+c("Abkhazia"
+"Crimea"
+"Eastern Donbas"
+"Nagorno-Karabakh"
+"South Ossetia"
+"Tibet"
+"Transnistria")
+WARN [2022-08-04 19:05:34] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:05:34] WARNING in script : 10-political rights
+WARN [2022-08-04 19:05:34] The following geocodes are missing for the latest year : 
+Puerto Rico
+WARN [2022-08-04 19:05:34] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:05:34] WARNING in script : 10-political rights
+WARN [2022-08-04 19:05:34] Some columns have NA values : 
+iso3c_CONVERT has 61 NA values
+WARN [2022-08-04 19:05:34] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:05:34] WARNING in script : 10-political rights
+WARN [2022-08-04 19:05:34] The following geocodes are missing for the latest year : 
+Puerto Rico
+WARN [2022-08-04 19:05:35] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:05:35] WARNING in script : 12-income inequality
+WARN [2022-08-04 19:05:35] The following geocodes are missing for the latest year : 
+c("Afghanistan", "Albania", "Andorra", "United Arab Emirates (the)", "Armenia", "Australia", "Azerbaijan", "Burundi", "Benin", "Burkina Faso", "Bangladesh", "Bahrain", "Bahamas (the)", "Bosnia and Herzegovina", "Belarus", "Barbados", "Brunei Darussalam", "Bhutan", "Botswana", "Central African Republic (the)", "Canada", "Chile", "Côte d'Ivoire", "Cameroon", "Congo (the Democratic Republic of the)", "Congo (the)", "Comoros (the)", "Cabo Verde", "Cuba", "Djibouti", "Dominica", "Algeria", "Egypt", "Ethiopia", 
+"Fiji", "Micronesia (Federated States of)", "Gabon", "Georgia", "Ghana", "Guinea", "Gambia (the)", "Guinea-Bissau", "Equatorial Guinea", "Grenada", "Greenland", "Guatemala", "Guyana", "Hong Kong", "Haiti", "Indonesia", "India", "Iran (Islamic Republic of)", "Iraq", "Iceland", "Israel", "Jamaica", "Jordan", "Japan", "Kazakhstan", "Kenya", "Kyrgyzstan", "Cambodia", "Kiribati", "Saint Kitts and Nevis", "Korea (the Republic of)", "Kuwait", "Lao People's Democratic Republic (the)", "Lebanon", "Liberia", 
+"Libya", "Saint Lucia", "Sri Lanka", "Lesotho", "Morocco", "Moldova (the Republic of)", "Madagascar", "Maldives", "Mexico", "Mali", "Myanmar", "Mongolia", "Mozambique", "Mauritania", "Mauritius", "Malawi", "Malaysia", "Namibia", "Niger (the)", "Nicaragua", "Nepal", "Nauru", "New Zealand", "Oman", "Pakistan", "Philippines (the)", "Palau", "Papua New Guinea", "Puerto Rico", "Palestine, State of", "Qatar", "Russian Federation (the)", "Rwanda", "Saudi Arabia", "Sudan (the)", "Senegal", "Singapore", "Solomon Islands", 
+"Sierra Leone", "San Marino", "Somalia", "South Sudan", "Sao Tome and Principe", "Suriname", "Eswatini", "Seychelles", "Syrian Arab Republic (the)", "Chad", "Togo", "Thailand", "Tajikistan", "Timor-Leste", "Tonga", "Tunisia", "Tuvalu", "Taiwan (Province of China)", "Tanzania, the United Republic of", "Uganda", "Ukraine", "Uzbekistan", "Saint Vincent and the Grenadines", "Venezuela (Bolivarian Republic of)", "Viet Nam", "Vanuatu", "Samoa", "Kosovo", "Yemen", "South Africa", "Zambia", "Zimbabwe")
+WARN [2022-08-04 19:05:35] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:05:35] WARNING in script : 12-income inequality
+WARN [2022-08-04 19:05:35] The following geocode-year pairs are duplicated : 
+c("ZAF 2001 Income inequality"
+"ZAF 2005 Income inequality")
+WARN [2022-08-04 19:05:35] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:05:35] WARNING in script : 12-income inequality
+WARN [2022-08-04 19:05:35] Some columns have NA values : 
+value has 61 NA values
+WARN [2022-08-04 19:05:41] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:05:41] WARNING in script : 16-media-freedom
+WARN [2022-08-04 19:05:41] The following geocodes could not be converted : 
+c("Abkhazia"
+"Crimea"
+"Eastern Donbas"
+"Nagorno-Karabakh"
+"South Ossetia"
+"Tibet"
+"Transnistria")
+WARN [2022-08-04 19:05:41] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:05:41] WARNING in script : 16-media-freedom
+WARN [2022-08-04 19:05:41] The following geocodes are missing for the latest year : 
+Puerto Rico
+WARN [2022-08-04 19:05:42] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:05:42] WARNING in script : 17-SIPRI-milex
+WARN [2022-08-04 19:05:42] The following geocodes are missing for the latest year : 
+c("Libya", "Djibouti", "Eritrea", "Venezuela (Bolivarian Republic of)", "Lao People's Democratic Republic (the)", "Uzbekistan", "Lebanon", "Syrian Arab Republic (the)", "United Arab Emirates (the)", "Yemen", "Viet Nam", "Afghanistan", "Cuba")
+WARN [2022-08-04 19:05:43] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:05:43] WARNING in script : 18-dietary-energy-supply
+WARN [2022-08-04 19:05:43] The following geocodes are missing for the latest year : 
+BMU
+WARN [2022-08-04 19:05:44] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:05:44] WARNING in script : 18-dietary-energy-supply
+WARN [2022-08-04 19:05:44] The following geocode-year pairs are duplicated : 
+c("NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2001 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2002 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2003 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2004 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2005 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2006 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2007 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2008 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2009 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2010 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2011 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2012 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2013 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2014 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2015 Average dietary energy supply adequacy (percent) (3-year average)"
+
+"NA 2016 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2017 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2018 Average dietary energy supply adequacy (percent) (3-year average)"
+"NA 2019 Average dietary energy supply adequacy (percent) (3-year average)")
+WARN [2022-08-04 19:05:44] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:05:44] WARNING in script : 18-dietary-energy-supply
+WARN [2022-08-04 19:05:44] Some columns have NA values : 
+iso3c has 779 NA values
+iso3c_CONVERT has 779 NA values
+WARN [2022-08-04 19:05:45] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:05:45] WARNING in script : 20-womens-participation-UNFCCC
+WARN [2022-08-04 19:05:45] The following geocodes are missing for the latest year : 
+SMR
+WARN [2022-08-04 19:05:56] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:05:56] WARNING in script : 24-forced-displacement-by-origin-country
+WARN [2022-08-04 19:05:56] Some columns have NA values : 
+iso3c has 22 NA values
+WARN [2022-08-04 19:05:58] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:05:58] WARNING in script : 28-social-protection
+WARN [2022-08-04 19:05:58] The following geocodes are missing for the latest year : 
+c("Bangladesh", "Cook Islands (the)", "Djibouti", "French Polynesia", "Nauru", "Nigeria", "Palau", "Senegal", "Solomon Islands", "Ukraine", "Venezuela (Bolivarian Republic of)")
+WARN [2022-08-04 19:05:59] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:05:59] WARNING in script : 30-world-governance-indicators
+WARN [2022-08-04 19:05:59] The following geocodes are missing for the latest year : 
+c("COK", "MCO", "NIU", "SMR")
+WARN [2022-08-04 19:06:00] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:06:00] WARNING in script : 31-renewable-energy
+WARN [2022-08-04 19:06:00] The following geocodes are missing for the latest year : 
+c("AFG", "ALB", "DZA", "ASM", "AGO", "ATG", "ABW", "BHS", "BHR", "BRB", "BLZ", "BEN", "BTN", "BWA", "VGB", "BRN", "BFA", "KHM", "CMR", "CPV", "CYM", "CAF", "TCD", "CHN", "COL", "COM", "COG", "COK", "CIV", "CUB", "COD", "DJI", "DMA", "DOM", "GNQ", "ERI", "SWZ", "ETH", "FRO", "FLK", "FJI", "GUF", "PYF", "GAB", "GMB", "GHA", "GRL", "GRD", "GLP", "GUM", "GTM", "GIN", "GNB", "GUY", "HTI", "HND", "HKG", "ISL", "IND", "IDN", "IRN", "IRQ", "ISR", "JAM", "JOR", "KAZ", "KIR", "XKX", "KWT", "KGZ", "LAO", "LBN", 
+"LSO", "LBR", "LBY", "MAC", "MDG", "MWI", "MYS", "MDV", "MLI", "MTQ", "MRT", "MUS", "MSR", "MAR", "MOZ", "MMR", "NAM", "NRU", "NPL", "NCL", "NZL", "NIC", "NER", "NGA", "PRK", "OMN", "PSE", "PAN", "PNG", "PRY", "PRI", "QAT", "REU", "RWA", "KNA", "LCA", "SPM", "VCT", "WSM", "STP", "SAU", "SYC", "SLE", "SLB", "SOM", "SSD", "LKA", "SDN", "SUR", "SYR", "TZA", "TGO", "TON", "TTO", "TKM", "TCA", "UGA", "ARE", "VIR", "URY", "UZB", "VUT", "VEN", "YEM", "ZMB", "ZWE")
+WARN [2022-08-04 19:06:02] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:06:02] WARNING in script : 34-tax-revenue
+WARN [2022-08-04 19:06:02] The following geocodes are missing for the latest year : 
+c("ABW", "AIA", "ALB", "ARE", "ARG", "ARM", "ATG", "AUS", "AUT", "AZE", "BDI", "BEL", "BEN", "BFA", "BGD", "BGR", "BHR", "BHS", "BIH", "BLR", "BLZ", "BOL", "BRA", "BRB", "BRN", "BTN", "CAF", "CAN", "CHE", "CHL", "CHN", "CIV", "CMR", "COD", "COG", "COL", "CPV", "CRI", "CUB", "CYP", "CZE", "DEU", "DMA", "DNK", "DOM", "DZA", "ECU", "ERI", "ESP", "EST", "ETH", "FIN", "FRA", "FSM", "GAB", "GBR", "GEO", "GHA", "GNQ", "GRC", "GUY", "HKG", "HRV", "HTI", "HUN", "IND", "IRL", "IRN", "IRQ", "ISL", "ISR", "ITA", 
+"JAM", "JPN", "KAZ", "KGZ", "KHM", "KIR", "KNA", "KOR", "LAO", "LBN", "LBY", "LKA", "LSO", "LTU", "LUX", "LVA", "MAC", "MDA", "MDG", "MEX", "MHL", "MLT", "MMR", "MOZ", "MSR", "MUS", "NGA", "NIC", "NLD", "NOR", "NRU", "NZL", "OMN", "PAK", "PER", "PHL", "PLW", "POL", "PRT", "PRY", "QAT", "ROM", "SAU", "SGP", "SLV", "SMR", "SOM", "SRB", "SUR", "SVK", "SVN", "SWE", "SWZ", "SYR", "TCD", "TGO", "THA", "TKM", "TLS", "TTO", "TUN", "TUR", "TUV", "TZA", "UKR", "URY", "USA", "VEN", "VUT", "PSE", "WSM", "YEM", 
+"ZAF", "ZMB", "ZWE")
+WARN [2022-08-04 19:06:09] ---------------------------------------------------------------------------------------------------
+WARN [2022-08-04 19:06:09] WARNING in script : 36-battle-deaths
+WARN [2022-08-04 19:06:09] Some columns have NA values : 
+value has 502 NA values

@@ -1,0 +1,7 @@
+variablename,min.year,max.year,timespan,n,expected,delta
+Air quality,2021,2021,1,180,175,-5
+Attitudes on violence against women,2019,2019,1,162,175,13
+Biodiversity and habitat,2021,2021,1,180,175,-5
+Non-renewable resource crimes,2021,2021,1,193,175,-18
+Presence of criminal networks,2021,2021,1,193,175,-18
+Water stress,2019,2019,1,164,175,11

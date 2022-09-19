@@ -1,0 +1,47 @@
+country,iso3c,recipient_code
+Afghanistan,AFG,625
+Angola,AGO,225
+Bosnia and Herzegovina,BIH,64
+Burkina Faso,BFA,287
+Burundi,BDI,228
+Cameroon,CMR,229
+Central African Republic,CAF,231
+Chad,TCD,232
+Colombia,COL,437
+"Congo, Democratic Republic of the",COD,235
+Côte d’Ivoire,CIV,247
+Cyprus,CYP,
+El Salvador,SLV,342
+Gambia,GMB,240
+Guatemala,GTM,347
+Guinea,GIN,243
+Guinea-Bissau,GNB,244
+Haiti,HTI,349
+Honduras,HND,351
+Iraq,IRQ,543
+Kenya,KEN,248
+"Korea, Democratic People’s Republic",PRK,740
+Kosovo,XKX,57
+Kyrgyzstan,KGZ,614
+Lebanon,LBN,555
+Liberia,LBR,251
+Libya,LBY,133
+Mali,MLI,255
+Mauritania,MRT,256
+Myanmar,MMR,635
+Niger,NER,260
+Papua New Guinea,PNG,862
+Senegal,SEN,269
+Sierra Leone,SLE,272
+Solomon Islands,SLB,866
+State of Palestine,PSE,550
+Somalia,SOM,273
+Sri Lanka,LKA,640
+South Sudan,SSD,279
+Sudan/ Abyei,SDN,278
+Syria,SYR,573
+Ukraine,UKR,85
+Uzbekistan,UZB,617
+Western Sahara,ESH,
+Venezuela,VEN,463
+Yemen,YEM,580
